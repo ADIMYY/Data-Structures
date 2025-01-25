@@ -17,3 +17,5 @@ An **array** is a fundamental data structure in computer science that stores a c
 3. **Deletion**: Remove an element from a specific index (may require shifting elements).
 4. **Search**: Find the index of a specific element.
 5. **Update**: Modify the value of an element at a specific index.
+
+## Example [Code](https://github.com/ADIMYY/Data-Structures/blob/main/Array/Array.java) (Java)
