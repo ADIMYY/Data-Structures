@@ -29,9 +29,6 @@ This repository provides an implementation of the **Linked List** data structure
 2. [Types of Linked Lists](#types-of-linked-lists)
 3. [Operations on Linked Lists](#operations-on-linked-lists)
 4. [Code Implementation](#code-implementation)
-5. [Usage](#usage)
-6. [Contributing](#contributing)
-7. [License](#license)
 
 ---
 
