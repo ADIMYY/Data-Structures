@@ -1,6 +1,6 @@
 # Data-Structures
 
-# Array Data Structure
+# 1 - Array Data Structure
 
 ## Overview
 An **array** is a fundamental data structure in computer science that stores a collection of elements. Each element in an array is identified by an index or a key. Arrays are widely used due to their simplicity and efficiency in accessing elements.
