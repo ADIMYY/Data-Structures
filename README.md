@@ -19,8 +19,7 @@ An **array** is a fundamental data structure in computer science that stores a c
 5. **Update**: Modify the value of an element at a specific index.
 
 ## Example [Code](https://github.com/ADIMYY/Data-Structures/blob/main/Array/Array.java) (Java)
-<p><hr></p>
-<p><hr></p>
+
 # 2 - Linked List Data Structure
 
 This repository provides an implementation of the **Linked List** data structure in [Python/C/Java/etc.]. A linked list is a linear data structure where each element (called a node) contains data and a reference (or pointer) to the next node in the sequence. Unlike arrays, linked lists are not stored in contiguous memory locations, which allows for dynamic memory allocation and efficient insertions/deletions.
