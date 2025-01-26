@@ -121,7 +121,7 @@ Bottom ->
 
 ## Implementation
 
-### [Java](https://github.com/ADIMYY/Data-Structures/blob/main/Stack/Stack.java) Example
+### [Java Example](https://github.com/ADIMYY/Data-Structures/blob/main/Stack/Stack.java)
 ---
 
 ## Advantages
