@@ -78,3 +78,68 @@ Common operations on linked lists include:
 ## [Code](https://github.com/ADIMYY/Data-Structures/blob/main/LinkedList/LinkedList.java) Implementation
 
 Below is an example implementation of a **Singly Linked List** in Java.
+---
+# 3 - Stack Data Structure
+
+A **Stack** is a linear data structure that follows the **LIFO (Last In, First Out)** principle. This means that the last element added to the stack will be the first one to be removed.
+
+---
+
+## Key Operations
+
+1. **Push**: Add an element to the top of the stack.
+2. **Pop**: Remove and return the top element of the stack.
+3. **Peek/Top**: Retrieve the top element without removing it.
+4. **IsEmpty**: Check if the stack is empty.
+5. **Size**: Get the number of elements in the stack.
+
+---
+
+## Real-World Examples
+
+- **Undo Functionality**: In text editors, the undo feature uses a stack to keep track of changes.
+- **Browser History**: Backtracking through browser history is managed by a stack.
+- **Expression Evaluation**: Parsing and evaluating mathematical expressions.
+
+---
+
+## Visualization
+
+Imagine a stack of plates:
+
+- When you add a plate, it is placed on top of the stack.
+- When you remove a plate, it is taken from the top.
+
+```
+Top ->  [ Plate 3 ]
+         [ Plate 2 ]
+         [ Plate 1 ]
+Bottom ->
+```
+
+---
+
+## Implementation
+
+### [Java](https://github.com/ADIMYY/Data-Structures/blob/main/Stack/Stack.java) Example
+---
+
+## Advantages
+
+1. Simple to implement.
+2. Efficient for managing data with **LIFO** order.
+
+## Disadvantages
+
+1. Limited access to only the top element.
+2. Fixed size if implemented with arrays (unless dynamically resized).
+
+---
+
+## Applications
+
+- **Expression evaluation** (e.g., postfix, prefix expressions).
+- **Function call management** in programming languages.
+- [**Balanced parenthesis checking**](https://github.com/ADIMYY/Data-Structures/blob/main/Stack/Expression.java) in compilers.
+
+---
