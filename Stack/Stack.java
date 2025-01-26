@@ -42,6 +42,10 @@ public class Stack {
         return top == 0;
     }
 
+    public int size() {
+        return top;
+    }
+
     @Override
     public String toString() {
         var content = Arrays.copyOfRange(items, 0, top);
