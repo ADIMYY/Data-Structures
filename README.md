@@ -143,3 +143,41 @@ Bottom ->
 - [**Balanced parenthesis checking**](https://github.com/ADIMYY/Data-Structures/blob/main/Stack/Expression.java) in compilers.
 
 ---
+# 4 - Queue Data Structure
+
+## What is a Queue?
+A **Queue** is a linear data structure that follows the **First In, First Out (FIFO)** principle. This means that the first element added to the queue is the first one to be removed.
+
+### Key Characteristics:
+- **FIFO (First In, First Out):** The first element added is the first to be removed.
+- **Enqueue:** Adding an element to the rear (end) of the queue.
+- **Dequeue:** Removing an element from the front of the queue.
+- **Front (Head):** The first element in the queue.
+- **Rear (Tail):** The last element in the queue.
+
+## Types of Queues
+1. **Simple Queue** - Basic queue with FIFO ordering.
+2. **Circular Queue** - The last position is connected back to the first to make a circular structure.
+3. **Double-ended Queue (Deque)** - Elements can be added or removed from both ends.
+4. **Priority Queue** - Elements are dequeued based on priority rather than order.
+
+## Queue [Implementation](https://github.com/ADIMYY/Data-Structures/tree/main/Queue) Using Java
+
+## Applications of Queues
+- **CPU Scheduling** (Round-robin scheduling)
+- **Print Spoolers** (Managing print jobs)
+- **Handling Requests in Web Servers**
+- **Breadth-First Search (BFS) in Graphs**
+- **Managing Calls in Customer Support Systems**
+
+## Complexity Analysis
+| Operation  | Time Complexity |
+|------------|----------------|
+| Enqueue    | O(1)           |
+| Dequeue    | O(1)           |
+| Front/Rear | O(1)           |
+| is_empty   | O(1)           |
+
+## Conclusion
+Queues are a fundamental data structure with various real-world applications. Understanding how they work and implementing them efficiently is crucial in data structures and algorithms.
+---
