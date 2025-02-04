@@ -181,3 +181,36 @@ A **Queue** is a linear data structure that follows the **First In, First Out (F
 ## Conclusion
 Queues are a fundamental data structure with various real-world applications. Understanding how they work and implementing them efficiently is crucial in data structures and algorithms.
 ---
+# 5 - Hash Table Data Structure
+
+## What is a Hash Table?
+A **Hash Table** (or **Hash Map**) is a data structure that maps keys to values using a **hash function**. It allows for efficient insertion, deletion, and lookup operations, typically in **O(1) average time complexity**.
+
+### Key Characteristics:
+- **Key-Value Pairs:** Each value is stored using a unique key.
+- **Hash Function:** Converts a key into an index where the value is stored.
+- **Collision Handling:** Manages cases where multiple keys hash to the same index.
+
+## Collision Handling Techniques
+1. **Chaining:** Uses linked lists at each index to store multiple values.
+2. **Open Addressing:** Finds an alternate location in case of a collision (e.g., linear probing, quadratic probing, double hashing).
+
+## Hash Table [Implementation](https://github.com/ADIMYY/Data-Structures/blob/main/Hash%20Table/hashTable.java) Using Java.
+
+## Applications of Hash Tables
+- **Database Indexing** (e.g., fast lookup of records)
+- **Caching** (e.g., storing frequently accessed data)
+- **Symbol Tables** in compilers
+- **Routing Tables** in networking
+- **Counting Frequency of Elements** (e.g., word frequency in text processing)
+
+## Complexity Analysis
+| Operation  | Average Time Complexity | Worst-case Time Complexity |
+|------------|------------------------|---------------------------|
+| Insert     | O(1)                    | O(n) (with many collisions) |
+| Lookup     | O(1)                    | O(n)                       |
+| Delete     | O(1)                    | O(n)                       |
+
+## Conclusion
+Hash Tables are an essential data structure used in various applications requiring fast lookups and insertions. Understanding different collision handling techniques helps in optimizing performance.
+---
